@@ -1,0 +1,53 @@
+.user-list-inner {
+  width:70%;
+  height: 100%;
+  margin: 0px;
+}
+
+.user-list-outer {
+  margin: 0px;
+  padding: 20px 0px;
+  background-image: url(https://demos.creative-tim.com/vision-ui-dashboard-chakra/static/media/background-body-admin.9a5703c1.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+#logout {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  background-color: transparent;
+  width: 140px;
+  height: 40px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#logout:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  border: 0px;
+  color: black;
+}
+
+#back{
+  position: absolute;
+  top:10px;
+  left: 20px;
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+  border: 0px;
+  z-index: 3000;
+  text-align: center;
+}
+
+#back:hover{
+  cursor: pointer;
+  text-decoration: underline;
+ 
+}

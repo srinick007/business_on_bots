@@ -1,0 +1,44 @@
+
+
+
+###
+
+DELETE   https://637de434cfdbfd9a63a00317.mockapi.io/test/v2/users/2/posts/2
+
+{  
+    
+
+}
+
+###
+
+POST   https://637de434cfdbfd9a63a00317.mockapi.io/test/v2/users/71/posts
+Content-Type: application/json
+
+{  
+    "Title":"test1",
+    "content":"test33"
+   
+}
+
+
+###
+
+POST   https://637de434cfdbfd9a63a00317.mockapi.io/test/v2/users/
+Content-Type: application/json
+
+{  
+    "name":"sri dhanush",
+    "avatar":"https://assets.leetcode.com/users/avatars/avatar_1672206514.png"
+   
+}
+
+
+###
+
+GET  https://637de434cfdbfd9a63a00317.mockapi.io/test/v2/users/2
+
+{  
+    
+
+}

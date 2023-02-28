@@ -1,0 +1,50 @@
+.create-post-outer{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 350px;
+    background: linear-gradient(to top,rgba(0, 0, 65, 0.245),rgba(0, 157, 255, 0.31));
+    backdrop-filter: blur(20px);
+    z-index: 1001;
+    padding: 30px 20px;
+    border-radius: 20px;
+    display: block;
+    color: white;
+    border: 0.2px solid rgb(144, 211, 255);
+}
+
+.create-post-outer label{
+    font-weight: 700;
+}
+
+.create-post-outer input{
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius:10px;
+    height: 30px;
+    padding: 10px;
+    border: 0;
+    background-color: rgb(235, 235, 235);
+}
+
+.create-post-outer textarea{
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius:10px;
+    height: 100px;
+    padding: 10px;
+    border: 0;
+    background-color: rgb(235, 235, 235);
+}
+
+#create-post{
+    margin: auto;
+    width: 100%;
+}
+
